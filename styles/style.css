@@ -1,0 +1,26 @@
+/* font from - https://www.fontspace.com/super-larky-font-f116102 */
+@font-face {
+  font-family: "super-larky";
+  src: url("/fonts/SuperLarky-nALLR.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.notification-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.header-greet-avatar {
+  width: 75px;
+  height: 75px;
+}
