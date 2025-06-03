@@ -43,6 +43,7 @@ body {
     "sidebar main";
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 4fr;
+  background-color: lightgray;
 }
 
 .header {
@@ -50,6 +51,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
 }
 
 .search-bar {
@@ -66,7 +69,6 @@ body {
   gap: 10px;
   align-items: center;
   margin-bottom: 15px;
-  margin-right: 75px;
 }
 
 .header-bottom-left {
@@ -75,8 +77,10 @@ body {
 
 .header-bottom-right ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  gap: 10px;
   list-style-type: none;
+  padding-top: 20px;
 }
 
 .header-bottom-right ul button {
@@ -96,6 +100,8 @@ body {
     "content info"
     "content info";
   grid-template-columns: 2fr 1fr;
+  margin: 25px;
+  gap: 10px;
 }
 
 .sidebar {
@@ -108,6 +114,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 26px 1fr 1fr;
+  gap: 10px;
 }
 
 .project-section-title {
@@ -116,27 +123,61 @@ body {
   font-size: 18px;
 }
 
+.announcement-section-title {
+  grid-column: 1 / -1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.trending-section-title {
+  grid-column: 1 / -1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .project-item {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  border-left: 10px solid gold;
+  border-radius: 5px;
 }
 
 .project-icon-section ul {
- display: flex;
- justify-content: flex-end;
- gap: 15px; 
- list-style-type: none;
- padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  list-style-type: none;
+  padding-right: 10px;
 }
 
 .info-section {
   grid-area: info;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .announcement-section {
 }
 
+.announcements {
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.trending-section {
+
+}
+
+.trending {
+  background-color: #fff;
+}
+
+.whats-trending {
+  display: flex;
+}
 /* .grid-container {
   display: grid;
   grid-template-areas:
@@ -210,4 +251,4 @@ body {
 
 .main {
   grid-area: main;
-} */
+} */;
