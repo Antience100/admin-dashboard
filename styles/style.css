@@ -29,3 +29,82 @@ body {
   width: 50px;
   height: 50px;
 }
+
+.icon {
+  vertical-align: middle;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 0.5fr 4fr;
+}
+
+.header {
+  grid-area: header;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-search-section {
+}
+
+.search-bar {
+  background-color: lightgray;
+  border-style: none;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-greet {
+  display: flex;
+  gap: 10px;
+}
+
+.header-greet-text {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.header-buttons ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.header-buttons button {
+  height: 35px;
+  width: 90px;
+  background-color: blueviolet;
+  border-style: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-notification-section {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
