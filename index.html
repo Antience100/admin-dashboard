@@ -9,49 +9,44 @@
   <body>
     <div class="grid-container">
       <div class="header">
-        <div class="header-top">
-          <div class="header-search-section">
-            <img
-              src="/images/icons/search.svg"
-              class="search-icon icon"
-              alt="search icon"
-            />
-            <input class="search-bar" />
-          </div>
-          <div class="header-notification-section">
-            <img
-              src="images/icons/notification.svg"
-              class="notification-icon icon"
-              alt="notification icon"
-            />
-            <img
-              src="images/avatar/hacker.png"
-              class="notification-avatar"
-              alt="hackermans on a laptop"
-            />
-            <p>Morgan Oakley</p>
+        <div class="header-top-left">
+          <img
+            src="/images/icons/search.svg"
+            class="search-icon icon"
+            alt="search icon"
+          />
+          <input class="search-bar" />
+        </div>
+        <div class="header-top-right">
+          <img
+            src="images/icons/notification.svg"
+            class="notification-icon icon"
+            alt="notification icon"
+          />
+          <img
+            src="images/avatar/hacker.png"
+            class="notification-avatar"
+            alt="hackermans on a laptop"
+          />
+          <p>Morgan Oakley</p>
+        </div>
+        <div class="header-bottom-left">
+          <img
+            src="images/avatar/hacker.png"
+            class="header-greet-avatar"
+            alt="hackermans on a laptop"
+          />
+          <div class="header-greet-text">
+            <p>Hi there,</p>
+            <h1>Morgan Oakley (@morgan)</h1>
           </div>
         </div>
-        <div class="header-bottom">
-          <div class="header-greet">
-            <img
-              src="images/avatar/hacker.png"
-              class="header-greet-avatar"
-              alt="hackermans on a laptop"
-            />
-            <div class="header-greet-text">
-              <p>Hi there,</p>
-              <h1>Morgan Oakley (@morgan)</h1>
-            </div>
-          </div>
-
-          <div class="header-buttons">
-            <ul>
-              <li class="new"><button>New</button></li>
-              <li class="upload"><button>Upload</button></li>
-              <li class="share"><button>Share</button></li>
-            </ul>
-          </div>
+        <div class="header-bottom-right">
+          <ul>
+            <li class="new"><button>New</button></li>
+            <li class="upload"><button>Upload</button></li>
+            <li class="share"><button>Share</button></li>
+          </ul>
         </div>
       </div>
       <div class="sidebar">
@@ -62,78 +57,71 @@
             class="icon"
           /><a href="#">Dashboard</a>
         </div>
-        <div class="sidebar-nav-links">
-          <div class="sidebar-account-section">
-            <ul>
-              <li class="nav-link home">
-                <img
-                  src="images/icons/home.svg"
-                  alt="a home icon"
-                  class="icon"
-                /><a href="#">Home</a>
-              </li>
-              <li class="nav-link profile">
-                <img
-                  src="images/icons/account.svg"
-                  alt="a profile icon"
-                  class="icon"
-                /><a href="#">Profile</a>
-              </li>
-              <li class="nav-link messages">
-                <img
-                  src="images/icons/message.svg"
-                  alt="a message icon"
-                  class="icon"
-                /><a href="#">Messages</a>
-              </li>
-              <li class="nav-link history">
-                <img
-                  src="images/icons/history.svg"
-                  alt="a history icon"
-                  class="icon"
-                /><a href="#">History</a>
-              </li>
-              <li class="nav-link tasks">
-                <img
-                  src="images/icons/tasks.svg"
-                  alt="an inventory icon"
-                  class="icon"
-                /><a href="#">Tasks</a>
-              </li>
-              <li class="nav-link communities">
-                <img
-                  src="images/icons/communities.svg"
-                  alt="a group of people icon"
-                /><a href="#">Communities</a>
-              </li>
-            </ul>
-          </div>
-          <div class="sidebar-help-section">
-            <ul>
-              <li class="nav-link settings">
-                <img
-                  src="images/icons/settings.svg"
-                  alt="a settings icon"
-                  class="icon"
-                /><a href="#">Settings</a>
-              </li>
-              <li class="nav-link support">
-                <img
-                  src="images/icons/support.svg"
-                  alt="a help icon"
-                  class="icon"
-                /><a href="#">Support</a>
-              </li>
-              <li class="nav-link privacy">
-                <img
-                  src="images/icons/privacy.svg"
-                  alt="a privacy icon"
-                  class="icon"
-                /><a href="#">Privacy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul>
+          <li class="nav-link home">
+            <img src="images/icons/home.svg" alt="a home icon" class="icon" /><a
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-link profile">
+            <img
+              src="images/icons/account.svg"
+              alt="a profile icon"
+              class="icon"
+            /><a href="#">Profile</a>
+          </li>
+          <li class="nav-link messages">
+            <img
+              src="images/icons/message.svg"
+              alt="a message icon"
+              class="icon"
+            /><a href="#">Messages</a>
+          </li>
+          <li class="nav-link history">
+            <img
+              src="images/icons/history.svg"
+              alt="a history icon"
+              class="icon"
+            /><a href="#">History</a>
+          </li>
+          <li class="nav-link tasks">
+            <img
+              src="images/icons/tasks.svg"
+              alt="an inventory icon"
+              class="icon"
+            /><a href="#">Tasks</a>
+          </li>
+          <li class="nav-link communities">
+            <img
+              src="images/icons/communities.svg"
+              alt="a group of people icon"
+            /><a href="#">Communities</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="nav-link settings">
+            <img
+              src="images/icons/settings.svg"
+              alt="a settings icon"
+              class="icon"
+            /><a href="#">Settings</a>
+          </li>
+          <li class="nav-link support">
+            <img
+              src="images/icons/support.svg"
+              alt="a help icon"
+              class="icon"
+            /><a href="#">Support</a>
+          </li>
+          <li class="nav-link privacy">
+            <img
+              src="images/icons/privacy.svg"
+              alt="a privacy icon"
+              class="icon"
+            /><a href="#">Privacy</a>
+          </li>
+        </ul>
       </div>
       <div class="main">
         <div class="project-section">
@@ -149,22 +137,13 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" s alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
@@ -182,22 +161,13 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
@@ -213,22 +183,13 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
@@ -245,22 +206,13 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
@@ -276,22 +228,13 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
@@ -309,93 +252,86 @@
             <div class="project-icon-section">
               <ul>
                 <li class="project-icon favorite">
-                  <img
-                    src="images/icons/star_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a star icon"
-                  />
+                  <img src="images/icons/favorite.svg" alt="a star icon" />
                 </li>
                 <li class="project-icon watch">
-                  <img
-                    src="images/icons/visibility_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a visiblity icon"
-                  />
+                  <img src="images/icons/watch.svg" alt="a visiblity icon" />
                 </li>
                 <li class="project-icon share">
-                  <img
-                    src="images/icons/share_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-                    alt="a share icon"
-                  />
+                  <img src="images/icons/share.svg" alt="a share icon" />
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="announcement-section">
-          <p class="announcement-section-title">Announcements</p>
-          <div class="announcements">
-            <div class="annuncement">
-              <p class="announcement-title">Site Maintenance</p>
-              <p class="announcement-info">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-                porro autem perferendis assumenda dolor sapiente et magni totam
-                distinctio quaerat.
-              </p>
-            </div>
-            <div class="annuncement">
-              <p class="announcement-title">Site Maintenance</p>
-              <p class="announcement-info">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-                porro autem perferendis assumenda dolor sapiente et magni totam
-                distinctio quaerat.
-              </p>
-            </div>
-            <div class="annuncement">
-              <p class="announcement-title">Site Maintenance</p>
-              <p class="announcement-info">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-                porro autem perferendis assumenda dolor sapiente et magni totam
-                distinctio quaerat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="trending-section">
-          <p class="trending-section-title">Trending</p>
-          <div class="trending">
-            <div class="whats-trending">
-              <img
-                src="images/avatar/hacker.png"
-                alt=""
-                class="trending-avatar"
-              />
-              <div class="trending-info">
-                <p>@lorem</p>
-                <p>Something yes?</p>
+        <div class="info-section">
+          <div class="announcement-section">
+            <p class="announcement-section-title">Announcements</p>
+            <div class="announcements">
+              <div class="annuncement">
+                <p class="announcement-title">Site Maintenance</p>
+                <p class="announcement-info">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  porro autem perferendis assumenda dolor sapiente et magni
+                  totam distinctio quaerat.
+                </p>
+              </div>
+              <div class="annuncement">
+                <p class="announcement-title">Site Maintenance</p>
+                <p class="announcement-info">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  porro autem perferendis assumenda dolor sapiente et magni
+                  totam distinctio quaerat.
+                </p>
+              </div>
+              <div class="annuncement">
+                <p class="announcement-title">Site Maintenance</p>
+                <p class="announcement-info">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  porro autem perferendis assumenda dolor sapiente et magni
+                  totam distinctio quaerat.
+                </p>
               </div>
             </div>
-            <div class="whats-trending">
-              <img
-                src="images/avatar/hacker.png"
-                alt=""
-                class="trending-avatar"
-              />
-              <li class="project-icon share">
+          </div>
+          <div class="trending-section">
+            <p class="trending-section-title">Trending</p>
+            <div class="trending">
+              <div class="whats-trending">
+                <img
+                  src="images/avatar/hacker.png"
+                  alt=""
+                  class="trending-avatar"
+                />
                 <div class="trending-info">
                   <p>@lorem</p>
                   <p>Something yes?</p>
                 </div>
-              </li>
-            </div>
+              </div>
+              <div class="whats-trending">
+                <img
+                  src="images/avatar/hacker.png"
+                  alt=""
+                  class="trending-avatar"
+                />
+                <li class="project-icon share">
+                  <div class="trending-info">
+                    <p>@lorem</p>
+                    <p>Something yes?</p>
+                  </div>
+                </li>
+              </div>
 
-            <div class="whats-trending">
-              <img
-                src="images/avatar/hacker.png"
-                alt=""
-                class="trending-avatar"
-              />
-              <div class="trending-info">
-                <p>@lorem</p>
-                <p>Something yes?</p>
+              <div class="whats-trending">
+                <img
+                  src="images/avatar/hacker.png"
+                  alt=""
+                  class="trending-avatar"
+                />
+                <div class="trending-info">
+                  <p>@lorem</p>
+                  <p>Something yes?</p>
+                </div>
               </div>
             </div>
           </div>
